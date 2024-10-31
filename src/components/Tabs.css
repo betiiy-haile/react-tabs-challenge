@@ -1,0 +1,42 @@
+/* Tabs.css */
+.tabs-container {
+    font-family: Arial, sans-serif;
+  }
+  
+  .tabs {
+    display: flex;
+    cursor: pointer;
+    background-color: #333;
+  }
+  
+  .tab {
+    flex: 1;
+    padding: 24px;
+    color: #aaa;
+    text-align: center;
+  }
+  
+  .tab.active {
+    color: #fff;
+    background-color: #246170;
+  }
+  
+  .tab-content {
+    padding: 40px;
+    color: black;
+    background-color: #f5f5f5;
+  }
+  
+  .tab-content h3 {
+    font-size: large;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 24px;
+  }
+
+  .tab-content p{
+    align-items: center;
+    font-weight: 300;
+    line-height: 30px;
+  }
+  
